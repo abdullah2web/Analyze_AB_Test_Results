@@ -13594,7 +13594,7 @@ dtype: int64</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([773192])</pre>
+<pre>array([773192], dtype=int64)</pre>
 </div>
 
 </div>
@@ -14126,7 +14126,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.11930355791067374</pre>
+<pre>0.1188011836762783</pre>
 </div>
 
 </div>
@@ -14168,7 +14168,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.12015914754188636</pre>
+<pre>0.12077178297561848</pre>
 </div>
 
 </div>
@@ -14209,7 +14209,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>-0.0008555896312126277</pre>
+<pre>-0.001970599299340181</pre>
 </div>
 
 </div>
@@ -14276,11 +14276,11 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(array([   8.,   58.,  355., 1320., 2565., 3031., 1855.,  657.,  139.,
-          12.]),
- array([-0.00490256, -0.00396309, -0.00302362, -0.00208415, -0.00114468,
-        -0.0002052 ,  0.00073427,  0.00167374,  0.00261321,  0.00355268,
-         0.00449215]),
+<pre>(array([5.000e+00, 3.800e+01, 3.420e+02, 1.454e+03, 3.015e+03, 3.076e+03,
+        1.594e+03, 4.180e+02, 5.700e+01, 1.000e+00]),
+ array([-5.25349223e-03, -4.21146535e-03, -3.16943848e-03, -2.12741160e-03,
+        -1.08538472e-03, -4.33578490e-05,  9.98669026e-04,  2.04069590e-03,
+         3.08272278e-03,  4.12474965e-03,  5.16677653e-03]),
  &lt;a list of 10 Patch objects&gt;)</pre>
 </div>
 
@@ -14294,7 +14294,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX0AAAD4CAYAAAAAczaOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADh0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uMy4yLjIsIGh0dHA6Ly9tYXRwbG90bGliLm9yZy+WH4yJAAARf0lEQVR4nO3dcayddX3H8fdnRZGpRBgXVtu6dqYmKyTD0VQS/3HipJNlxTmT+oc0mUmVYKKJZhZdov7RBHVqQjZZMBpK4iRdlNAM2ETiYkxQvChYCzKqoNR2tGoWYclYWr/74/y6Hcvpvaf33nPuxd/7lTw5z/k+v995fs+Py+c+fc5zzk1VIUnqw28t9wAkSdNj6EtSRwx9SeqIoS9JHTH0JakjZy33AOZzwQUX1Pr165d7GJL0vPLAAw/8rKpmTq2v+NBfv349s7Ozyz0MSXpeSfLjUXUv70hSRwx9SeqIoS9JHTH0Jakjhr4kdcTQl6SOGPqS1BFDX5I6Mm/oJ3lRkvuTPJTkQJKPtvr5Se5J8lh7PG+oz/VJDiZ5NMmVQ/XLkuxv225MkskcliRplHE+kfss8PqqeibJC4BvJLkb+Avg3qq6IckuYBfwgSSbgO3AxcDLga8meVVVnQBuAnYC3wTuArYCdy/5UUlTsH7Xncu27yduuGrZ9q3nt3nP9Gvgmfb0BW0pYBuwp9X3AFe39W3AbVX1bFU9DhwEtiRZDZxbVffV4M913TrUR5I0BWNd00+yKsmDwFHgnqr6FnBRVR0BaI8XtuZrgCeHuh9qtTVt/dT6qP3tTDKbZPbYsWNncjySpDmMFfpVdaKqLgXWMjhrv2SO5qOu09cc9VH7u7mqNlfV5pmZ53xJnCRpgc7o7p2q+k/g3xhci3+qXbKhPR5tzQ4B64a6rQUOt/raEXVJ0pSMc/fOTJKXtfVzgDcAPwD2ATtasx3AHW19H7A9ydlJNgAbgfvbJaCnk1ze7tq5ZqiPJGkKxrl7ZzWwJ8kqBr8k9lbVPye5D9ib5B3AT4C3AlTVgSR7gYeB48B17c4dgGuBW4BzGNy14507kjRF84Z+VX0PePWI+s+BK07TZzewe0R9Fpjr/QBJ0gT5iVxJ6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUEUNfkjpi6EtSRwx9SeqIoS9JHTH0Jakjhr4kdcTQl6SOGPqS1BFDX5I6YuhLUkcMfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktQRQ1+SOmLoS1JHzlruAUiLtX7Xncs9BOl5Y94z/STrknwtySNJDiR5T6t/JMlPkzzYljcN9bk+ycEkjya5cqh+WZL9bduNSTKZw5IkjTLOmf5x4H1V9Z0kLwUeSHJP2/bpqvrb4cZJNgHbgYuBlwNfTfKqqjoB3ATsBL4J3AVsBe5emkORJM1n3jP9qjpSVd9p608DjwBr5uiyDbitqp6tqseBg8CWJKuBc6vqvqoq4Fbg6kUfgSRpbGf0Rm6S9cCrgW+10ruTfC/J55Oc12prgCeHuh1qtTVt/dT6qP3sTDKbZPbYsWNnMkRJ0hzGDv0kLwG+BLy3qn7J4FLNK4FLgSPAJ082HdG95qg/t1h1c1VtrqrNMzMz4w5RkjSPsUI/yQsYBP4XqurLAFX1VFWdqKpfAZ8FtrTmh4B1Q93XAodbfe2IuiRpSsa5eyfA54BHqupTQ/XVQ83eDHy/re8Dtic5O8kGYCNwf1UdAZ5Ocnl7zWuAO5boOCRJYxjn7p3XAm8H9id5sNU+CLwtyaUMLtE8AbwToKoOJNkLPMzgzp/r2p07ANcCtwDnMLhrxzt3JGmK5g39qvoGo6/H3zVHn93A7hH1WeCSMxmgJGnp+DUMktQRQ1+SOmLoS1JHDH1J6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUEUNfkjpi6EtSRwx9SeqIoS9JHTH0Jakjhr4kdcTQl6SOGPqS1BFDX5I6YuhLUkcMfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktSReUM/ybokX0vySJIDSd7T6ucnuSfJY+3xvKE+1yc5mOTRJFcO1S9Lsr9tuzFJJnNYkqRRxjnTPw68r6r+ALgcuC7JJmAXcG9VbQTubc9p27YDFwNbgc8kWdVe6yZgJ7CxLVuX8FgkSfOYN/Sr6khVfaetPw08AqwBtgF7WrM9wNVtfRtwW1U9W1WPAweBLUlWA+dW1X1VVcCtQ30kSVNwRtf0k6wHXg18C7ioqo7A4BcDcGFrtgZ4cqjboVZb09ZPrY/az84ks0lmjx07diZDlCTNYezQT/IS4EvAe6vql3M1HVGrOerPLVbdXFWbq2rzzMzMuEOUJM1jrNBP8gIGgf+FqvpyKz/VLtnQHo+2+iFg3VD3tcDhVl87oi5JmpJx7t4J8Dngkar61NCmfcCOtr4DuGOovj3J2Uk2MHjD9v52CejpJJe317xmqI8kaQrOGqPNa4G3A/uTPNhqHwRuAPYmeQfwE+CtAFV1IMle4GEGd/5cV1UnWr9rgVuAc4C72yJJmpJ5Q7+qvsHo6/EAV5ymz25g94j6LHDJmQxQkrR0/ESuJHXE0Jekjhj6ktQRQ1+SOjLO3TuSVpj1u+5clv0+ccNVy7JfLR3P9CWpI4a+JHXE0Jekjhj6ktQRQ1+SOmLoS1JHDH1J6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUEUNfkjpi6EtSRwx9SeqIoS9JHTH0Jakjhr4kdcTQl6SOGPqS1JF5Qz/J55McTfL9odpHkvw0yYNtedPQtuuTHEzyaJIrh+qXJdnftt2YJEt/OJKkuYxzpn8LsHVE/dNVdWlb7gJIsgnYDlzc+nwmyarW/iZgJ7CxLaNeU5I0QfOGflV9HfjFmK+3Dbitqp6tqseBg8CWJKuBc6vqvqoq4Fbg6oUOWpK0MIu5pv/uJN9rl3/Oa7U1wJNDbQ612pq2fmp9pCQ7k8wmmT127NgihihJGrbQ0L8JeCVwKXAE+GSrj7pOX3PUR6qqm6tqc1VtnpmZWeAQJUmnWlDoV9VTVXWiqn4FfBbY0jYdAtYNNV0LHG71tSPqkqQpWlDot2v0J70ZOHlnzz5ge5Kzk2xg8Ibt/VV1BHg6yeXtrp1rgDsWMW5J0gKcNV+DJF8EXgdckOQQ8GHgdUkuZXCJ5gngnQBVdSDJXuBh4DhwXVWdaC91LYM7gc4B7m6LJGmK5g39qnrbiPLn5mi/G9g9oj4LXHJGo5MkLSk/kStJHTH0Jakjhr4kdcTQl6SOGPqS1BFDX5I6YuhLUkfmvU9fGsf6XXcu9xAkjcEzfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktQRQ1+SOmLoS1JHDH1J6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUEUNfkjpi6EtSRwx9SerIvKGf5PNJjib5/lDt/CT3JHmsPZ43tO36JAeTPJrkyqH6ZUn2t203JsnSH44kaS7jnOnfAmw9pbYLuLeqNgL3tuck2QRsBy5ufT6TZFXrcxOwE9jYllNfU5I0YfOGflV9HfjFKeVtwJ62vge4eqh+W1U9W1WPAweBLUlWA+dW1X1VVcCtQ30kSVOy0Gv6F1XVEYD2eGGrrwGeHGp3qNXWtPVT6yMl2ZlkNsnssWPHFjhESdKplvqN3FHX6WuO+khVdXNVba6qzTMzM0s2OEnq3UJD/6l2yYb2eLTVDwHrhtqtBQ63+toRdUnSFC009PcBO9r6DuCOofr2JGcn2cDgDdv72yWgp5Nc3u7auWaojyRpSs6ar0GSLwKvAy5Icgj4MHADsDfJO4CfAG8FqKoDSfYCDwPHgeuq6kR7qWsZ3Al0DnB3WyRJUzRv6FfV206z6YrTtN8N7B5RnwUuOaPRSZKWlJ/IlaSOGPqS1BFDX5I6YuhLUkcMfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktQRQ1+SOmLoS1JHDH1J6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUkXn/XKIknbR+153Lst8nbrhqWfb7m8gzfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktSRRYV+kieS7E/yYJLZVjs/yT1JHmuP5w21vz7JwSSPJrlysYOXJJ2ZpTjT/+OqurSqNrfnu4B7q2ojcG97TpJNwHbgYmAr8Jkkq5Zg/5KkMU3i8s42YE9b3wNcPVS/raqerarHgYPAlgnsX5J0GosN/QK+kuSBJDtb7aKqOgLQHi9s9TXAk0N9D7WaJGlKFvs1DK+tqsNJLgTuSfKDOdpmRK1GNhz8AtkJ8IpXvGKRQ5QknbSoM/2qOtwejwK3M7hc81SS1QDt8WhrfghYN9R9LXD4NK97c1VtrqrNMzMzixmiJGnIgkM/yYuTvPTkOvBG4PvAPmBHa7YDuKOt7wO2Jzk7yQZgI3D/QvcvSTpzi7m8cxFwe5KTr/OPVfUvSb4N7E3yDuAnwFsBqupAkr3Aw8Bx4LqqOrGo0UuSzsiCQ7+qfgT84Yj6z4ErTtNnN7B7ofuUJC2On8iVpI4Y+pLUEUNfkjpi6EtSRwx9SeqIfxj9N8xy/eFqSc8PnulLUkcMfUnqiKEvSR0x9CWpI4a+JHXE0Jekjhj6ktQRQ1+SOmLoS1JHDH1J6oihL0kdMfQlqSOGviR1xG/ZlLTiLee3xz5xw1XLtu9J8Exfkjpi6EtSRwx9SeqIoS9JHTH0Jakj3r0zAf6dWkkr1dTP9JNsTfJokoNJdk17/5LUs6mGfpJVwN8DfwpsAt6WZNM0xyBJPZv25Z0twMGq+hFAktuAbcDDk9iZl1kkLdZy5cikPhQ27dBfAzw59PwQ8JpTGyXZCexsT59J8ugUxrZULgB+ttyDWGbOgXMAzsGijj8fW/T+f29UcdqhnxG1ek6h6mbg5skPZ+klma2qzcs9juXkHDgH4Bys1OOf9hu5h4B1Q8/XAoenPAZJ6ta0Q//bwMYkG5K8ENgO7JvyGCSpW1O9vFNVx5O8G/hXYBXw+ao6MM0xTMHz8rLUEnMOnANwDlbk8afqOZfUJUm/ofwaBknqiKEvSR0x9MeU5Pwk9yR5rD2ed5p2I79mYr7+SV6R5Jkk75/0sSzUpOYgyZ8keSDJ/vb4+mkd0zjm++qQDNzYtn8vyR/N13fcuVwpJjQHn0jyg9b+9iQvm9bxLMQk5mBo+/uTVJILJn0cVJXLGAvwcWBXW98FfGxEm1XAD4HfB14IPARsGqc/8CXgn4D3L/exTnsOgFcDL2/rlwA/Xe5jHed4htq8CbibwedQLge+tdifh5W0THAO3gic1dY/1uMctO3rGNzc8mPggkkfi2f649sG7Gnre4CrR7T5v6+ZqKr/AU5+zcSc/ZNcDfwIWOl3Mk1kDqrqu1V18vMaB4AXJTl7AuNfiLmO56RtwK018E3gZUlWz9N3nLlcKSYyB1X1lao63vp/k8HndlaqSf0cAHwa+GtGfFB1Egz98V1UVUcA2uOFI9qM+pqJNXP1T/Ji4APARyc07qU0kTk4xVuA71bVs0s26sWZ63jma7PYuVgpJjUHw/6KwVnySjWROUjy5wz+ZfvQUg/4dPw+/SFJvgr87ohNHxr3JUbU5vvt/VHg01X1TDKq+3Qt0xyc3PfFDP6Z/8Yx9zUN4xzP6doseC5WmInOQZIPAceBLyxodNOx5HOQ5LcZ/H811Z93Q39IVb3hdNuSPJVkdVUdaf9kOzqi2VxfM3G6/q8B/jLJx4GXAb9K8t9V9XeLPqAFWKY5IMla4Hbgmqr64aIPZOmM89Uhp2vzwjn6jjOXK8Wk5oAkO4A/A66odoF7hZrEHLwS2AA81E741gLfSbKlqv5jSUc/bLnfIHm+LMAn+PU33j4+os1ZDK7Nb+D/37C5+Az6f4SV/UbuROaAwS+7h4C3LPcxnsnxDLW5il9/A+/+pfh5WCnLBOdgK4OvVZ9Z7mNcrjk4pf8TTOGN3GWfzOfLAvwOcC/wWHs8v9VfDtw11O5NwL8zeLf+Q/P1P2UfKz30JzIHwN8A/wU8OLRcuNzHO9fxAO8C3tXWw+CPA/0Q2A9sXoqfh5W0TGgODjK41n3yv/k/LPdxTnsOTnn9qYS+X8MgSR3x7h1J6oihL0kdMfQlqSOGviR1xNCXpI4Y+pLUEUNfkjryv7f2mo4MxpssAAAAAElFTkSuQmCC
+<img src="data:image/png;base64,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
 "
 >
 </div>
@@ -14351,7 +14351,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.9041</pre>
+<pre>0.9054</pre>
 </div>
 
 </div>
@@ -14552,7 +14552,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;intercept&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">df2</span><span class="p">[[</span><span class="s1">&#39;control&#39;</span><span class="p">,</span><span class="s1">&#39;treatment&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">])</span>
+<span class="n">df2</span><span class="p">[</span><span class="s1">&#39;ab_page&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">])[</span><span class="s1">&#39;treatment&#39;</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -14575,7 +14575,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span>
 
-<span class="n">logit</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">],</span><span class="n">df2</span><span class="p">[[</span><span class="s1">&#39;intercept&#39;</span> <span class="p">,</span><span class="s1">&#39;treatment&#39;</span><span class="p">]])</span>
+<span class="n">logit</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">],</span><span class="n">df2</span><span class="p">[[</span><span class="s1">&#39;intercept&#39;</span> <span class="p">,</span><span class="s1">&#39;ab_page&#39;</span><span class="p">]])</span>
 <span class="n">results</span> <span class="o">=</span> <span class="n">logit</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
 </pre></div>
 
@@ -14647,10 +14647,10 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
   <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>   <td>     1</td>   
 </tr>
 <tr>
-  <th>Date:</th>            <td>Sat, 19 Sep 2020</td> <th>  Pseudo R-squ.:     </th>  <td>8.077e-06</td> 
+  <th>Date:</th>            <td>Sat, 26 Sep 2020</td> <th>  Pseudo R-squ.:     </th>  <td>8.077e-06</td> 
 </tr>
 <tr>
-  <th>Time:</th>                <td>17:46:53</td>     <th>  Log-Likelihood:    </th> <td>-1.0639e+05</td>
+  <th>Time:</th>                <td>12:52:17</td>     <th>  Log-Likelihood:    </th> <td>-1.0639e+05</td>
 </tr>
 <tr>
   <th>converged:</th>             <td>True</td>       <th>  LL-Null:           </th> <td>-1.0639e+05</td>
@@ -14667,7 +14667,7 @@ $$ H_0: p_{new} \leq p_{old} $$$$ H_1: p_{new} &gt; p_{old} $$
   <th>intercept</th> <td>   -1.9888</td> <td>    0.008</td> <td> -246.669</td> <td> 0.000</td> <td>   -2.005</td> <td>   -1.973</td>
 </tr>
 <tr>
-  <th>treatment</th> <td>   -0.0150</td> <td>    0.011</td> <td>   -1.311</td> <td> 0.190</td> <td>   -0.037</td> <td>    0.007</td>
+  <th>ab_page</th>   <td>   -0.0150</td> <td>    0.011</td> <td>   -1.311</td> <td> 0.190</td> <td>   -0.037</td> <td>    0.007</td>
 </tr>
 </table>
 </div>
@@ -14727,7 +14727,7 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">countries_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./countries.csv&#39;</span><span class="p">)</span>
@@ -14741,46 +14741,15 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Create the necessary dummy variables</span>
 <span class="n">df3</span><span class="p">[</span><span class="s1">&#39;intercept&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">df3</span><span class="p">[[</span><span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;CA&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df_new</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">])[[</span><span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;CA&#39;</span><span class="p">]]</span>
-
-<span class="c1"># logit2 = sm.Logit(df[&#39;converted&#39;], df[[&#39;intercept&#39;, &#39;ab_page&#39;, &#39;UK_ind&#39;, &#39;CA_ind&#39;]])</span>
-<span class="c1"># result2 = logit2.fit()</span>
-<span class="c1"># result2.summary()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>h. Though you have now looked at the individual factors of country and page on conversion, we would now like to look at an interaction between page and country to see if there significant effects on conversion.  Create the necessary additional columns, and fit the new model.</p>
-<p>Provide the summary results, and your conclusions based on the results.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Fit Your Linear Model And Obtain the Results</span>
-<span class="n">logit3</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">],</span> <span class="n">df3</span><span class="p">[[</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span> <span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;CA&#39;</span><span class="p">]])</span>
-
-<span class="c1"># df[&#39;UK_ab_page&#39;] = df[&#39;UK&#39;]*df[&#39;ab_page&#39;]</span>
-<span class="c1"># df[&#39;CA_ab_page&#39;] = df[&#39;CA&#39;]*df[&#39;ab_page&#39;]</span>
-<span class="c1"># logit3 = sm.Logit(df[&#39;converted&#39;], df[[&#39;intercept&#39;, &#39;ab_page&#39;, &#39;UK&#39;, &#39;CA&#39;, &#39;UK_ab_page&#39;, &#39;CA_ab_page&#39;]])</span>
-
-<span class="n">results</span> <span class="o">=</span> <span class="n">logit3</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
-<span class="n">results</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
+<span class="n">df3</span><span class="p">[[</span><span class="s1">&#39;UK_ind&#39;</span><span class="p">,</span><span class="s1">&#39;CA_ind&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">])[[</span><span class="s1">&#39;UK&#39;</span><span class="p">,</span><span class="s1">&#39;CA&#39;</span><span class="p">]]</span>
+<span class="n">logit2</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">],</span> <span class="n">df3</span><span class="p">[[</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span> <span class="s1">&#39;ab_page&#39;</span><span class="p">,</span> <span class="s1">&#39;UK_ind&#39;</span><span class="p">,</span> <span class="s1">&#39;CA_ind&#39;</span><span class="p">]])</span>
+<span class="n">result2</span> <span class="o">=</span> <span class="n">logit2</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+<span class="n">result2</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14798,7 +14767,7 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Optimization terminated successfully.
-         Current function value: 0.366116
+         Current function value: 0.366113
          Iterations 6
 </pre>
 </div>
@@ -14806,7 +14775,7 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[74]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -14817,22 +14786,22 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
   <th>Dep. Variable:</th>       <td>converted</td>    <th>  No. Observations:  </th>   <td>290584</td>   
 </tr>
 <tr>
-  <th>Model:</th>                 <td>Logit</td>      <th>  Df Residuals:      </th>   <td>290581</td>   
+  <th>Model:</th>                 <td>Logit</td>      <th>  Df Residuals:      </th>   <td>290580</td>   
 </tr>
 <tr>
-  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>   <td>     2</td>   
+  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>   <td>     3</td>   
 </tr>
 <tr>
-  <th>Date:</th>            <td>Sat, 19 Sep 2020</td> <th>  Pseudo R-squ.:     </th>  <td>1.521e-05</td> 
+  <th>Date:</th>            <td>Sat, 26 Sep 2020</td> <th>  Pseudo R-squ.:     </th>  <td>2.323e-05</td> 
 </tr>
 <tr>
-  <th>Time:</th>                <td>18:14:47</td>     <th>  Log-Likelihood:    </th> <td>-1.0639e+05</td>
+  <th>Time:</th>                <td>12:52:40</td>     <th>  Log-Likelihood:    </th> <td>-1.0639e+05</td>
 </tr>
 <tr>
   <th>converged:</th>             <td>True</td>       <th>  LL-Null:           </th> <td>-1.0639e+05</td>
 </tr>
 <tr>
-  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th>   <td>0.1984</td>   
+  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th>   <td>0.1760</td>   
 </tr>
 </table>
 <table class="simpletable">
@@ -14840,13 +14809,121 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
       <td></td>         <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>intercept</th> <td>   -1.9868</td> <td>    0.011</td> <td> -174.174</td> <td> 0.000</td> <td>   -2.009</td> <td>   -1.964</td>
+  <th>intercept</th> <td>   -1.9893</td> <td>    0.009</td> <td> -223.763</td> <td> 0.000</td> <td>   -2.007</td> <td>   -1.972</td>
 </tr>
 <tr>
-  <th>US</th>        <td>   -0.0099</td> <td>    0.013</td> <td>   -0.746</td> <td> 0.456</td> <td>   -0.036</td> <td>    0.016</td>
+  <th>ab_page</th>   <td>   -0.0149</td> <td>    0.011</td> <td>   -1.307</td> <td> 0.191</td> <td>   -0.037</td> <td>    0.007</td>
 </tr>
 <tr>
-  <th>CA</th>        <td>   -0.0507</td> <td>    0.028</td> <td>   -1.786</td> <td> 0.074</td> <td>   -0.106</td> <td>    0.005</td>
+  <th>UK_ind</th>    <td>    0.0099</td> <td>    0.013</td> <td>    0.743</td> <td> 0.457</td> <td>   -0.016</td> <td>    0.036</td>
+</tr>
+<tr>
+  <th>CA_ind</th>    <td>   -0.0408</td> <td>    0.027</td> <td>   -1.516</td> <td> 0.130</td> <td>   -0.093</td> <td>    0.012</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>h. Though you have now looked at the individual factors of country and page on conversion, we would now like to look at an interaction between page and country to see if there significant effects on conversion.  Create the necessary additional columns, and fit the new model.</p>
+<p>Provide the summary results, and your conclusions based on the results.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Fit Your Linear Model And Obtain the Results</span>
+<span class="n">df3</span><span class="p">[</span><span class="s1">&#39;UK_ab_page&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df3</span><span class="p">[</span><span class="s1">&#39;UK_ind&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;ab_page&#39;</span><span class="p">]</span>
+<span class="n">df3</span><span class="p">[</span><span class="s1">&#39;CA_ab_page&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df3</span><span class="p">[</span><span class="s1">&#39;CA_ind&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;ab_page&#39;</span><span class="p">]</span>
+<span class="n">logit3</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">],</span> <span class="n">df3</span><span class="p">[[</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span> <span class="s1">&#39;ab_page&#39;</span><span class="p">,</span> <span class="s1">&#39;UK_ind&#39;</span><span class="p">,</span> <span class="s1">&#39;CA_ind&#39;</span><span class="p">,</span> <span class="s1">&#39;UK_ab_page&#39;</span><span class="p">,</span> <span class="s1">&#39;CA_ab_page&#39;</span><span class="p">]])</span>
+<span class="n">result3</span> <span class="o">=</span> <span class="n">logit3</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+<span class="n">result3</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Optimization terminated successfully.
+         Current function value: 0.366109
+         Iterations 6
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[36]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<table class="simpletable">
+<caption>Logit Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>       <td>converted</td>    <th>  No. Observations:  </th>   <td>290584</td>   
+</tr>
+<tr>
+  <th>Model:</th>                 <td>Logit</td>      <th>  Df Residuals:      </th>   <td>290578</td>   
+</tr>
+<tr>
+  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>   <td>     5</td>   
+</tr>
+<tr>
+  <th>Date:</th>            <td>Sat, 26 Sep 2020</td> <th>  Pseudo R-squ.:     </th>  <td>3.482e-05</td> 
+</tr>
+<tr>
+  <th>Time:</th>                <td>12:53:02</td>     <th>  Log-Likelihood:    </th> <td>-1.0639e+05</td>
+</tr>
+<tr>
+  <th>converged:</th>             <td>True</td>       <th>  LL-Null:           </th> <td>-1.0639e+05</td>
+</tr>
+<tr>
+  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th>   <td>0.1920</td>   
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+       <td></td>         <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>intercept</th>  <td>   -1.9865</td> <td>    0.010</td> <td> -206.344</td> <td> 0.000</td> <td>   -2.005</td> <td>   -1.968</td>
+</tr>
+<tr>
+  <th>ab_page</th>    <td>   -0.0206</td> <td>    0.014</td> <td>   -1.505</td> <td> 0.132</td> <td>   -0.047</td> <td>    0.006</td>
+</tr>
+<tr>
+  <th>UK_ind</th>     <td>   -0.0057</td> <td>    0.019</td> <td>   -0.306</td> <td> 0.760</td> <td>   -0.043</td> <td>    0.031</td>
+</tr>
+<tr>
+  <th>CA_ind</th>     <td>   -0.0175</td> <td>    0.038</td> <td>   -0.465</td> <td> 0.642</td> <td>   -0.091</td> <td>    0.056</td>
+</tr>
+<tr>
+  <th>UK_ab_page</th> <td>    0.0314</td> <td>    0.027</td> <td>    1.181</td> <td> 0.238</td> <td>   -0.021</td> <td>    0.084</td>
+</tr>
+<tr>
+  <th>CA_ab_page</th> <td>   -0.0469</td> <td>    0.054</td> <td>   -0.872</td> <td> 0.383</td> <td>   -0.152</td> <td>    0.059</td>
 </tr>
 </table>
 </div>
@@ -14866,19 +14943,6 @@ Yes if we add high correlations predictor variables, leading to unreliable and u
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
